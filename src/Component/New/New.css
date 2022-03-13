@@ -1,0 +1,19 @@
+.new {
+  margin-top: 5rem;
+  padding: 1.5rem;
+}
+.new h1 {
+  margin-left: 3.1rem;
+  color: #162044;
+  font-weight: 550;
+}
+.newCard {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem;
+  /* border-radius: 2rem; */
+}
+.newCardMedia {
+  height: 200px;
+  border-radius: 2rem;
+}

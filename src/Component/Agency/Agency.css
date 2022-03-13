@@ -1,0 +1,38 @@
+.agency {
+  display: flex;
+  margin-top: 100px;
+  text-align: left;
+  padding: 0.5rem;
+}
+.agency p {
+  /* text-align: left; */
+  /* font-family: TFArrow; */
+  margin-top: 50px;
+  color: gray;
+}
+.agency h1 {
+  /* font-weight: bold; */
+  font-size: 48px;
+  line-height: 129.4%;
+  /* font-family: TFArrow; */
+  font-style: normal;
+  color: #162044;
+  /* margin-left: -20.375rem; */
+  /* text-align: left; */
+}
+.mosco img {
+  width: 25rem;
+  height: 25rem;
+  margin-left: 6.25rem;
+}
+.agency button {
+  margin-top: 2rem;
+  width: 180px;
+  padding: 18px 0;
+  font-size: 24px;
+  line-height: 129.4%;
+  background: #162044;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}

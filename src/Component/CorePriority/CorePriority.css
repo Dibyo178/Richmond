@@ -1,0 +1,35 @@
+.core {
+  margin-top: 3rem;
+}
+
+.core h1 {
+  font-size: 1.5rem;
+  line-height: 129.4%;
+  text-align: center;
+}
+h3 {
+  color: #a08a66;
+  margin-left: 62.5rem;
+}
+.card {
+  display: flex;
+  padding: 1rem;
+}
+.card div {
+  margin: 10px 10px;
+}
+/* .cardMedia {
+  width: 150px;
+} */
+.typography p {
+  text-align: center;
+  color: #1d1b63;
+  font-family: "TFArrow";
+  margin-top: 10px;
+}
+/* .boxShadow {
+ 
+} */
+/* .boxShadow {
+  display: flex;
+} */
