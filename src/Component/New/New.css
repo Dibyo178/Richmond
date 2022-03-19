@@ -20,8 +20,20 @@
   border-radius: 2rem;
   
 }
-.jRFJkP:hover:enabled, .jRFJkP:focus:enabled {
+
+.app button:hover:enabled {
   color: #fff;
   background-color: #A18A65;
   box-shadow: 0 0 2px 0 #333;
 }
+/* button:not(:disabled) {
+  color: #fff;
+  background-color: #A18A65;
+  cursor: pointer;
+}
+
+.jRFJkP:hover:enabled {
+  color: #fff;
+  background: #A18A65;
+  box-shadow: 0 0 2px 0 #333;
+} */

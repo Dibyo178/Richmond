@@ -20,8 +20,8 @@ const Header = () => {
             <div className='content'>
                 <h1>A place for relax & freshness</h1>
                 <div className='btn'>
-                    <button type='button'><span></span>Take a tour <IoIosArrowRoundForward style={{marginBottom:'0.1rem'}}/> </button>
-                    <button type='button'><span></span>Learn More</button>
+                    <button type='button' className='button'><span className='tourBtn'></span>Take a tour <IoIosArrowRoundForward style={{marginBottom:'0.1rem'}}/> </button>
+                    <button type='button'className='button'><span className='tourBtn'></span>Learn More</button>
                 </div>
                 </div>
 

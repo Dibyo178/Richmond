@@ -2,13 +2,15 @@ import React from "react";
 import { BsInstagram, BsYoutube } from 'react-icons/bs';
 import { FaFacebookF } from 'react-icons/fa';
 import "./Contact.css";
+import Direction from "./googleMap/Direction.js";
 
 
 const Contact = () => {
   return (
     <div className="contactInfo">
       <div className="col-md-8 map">
-        <img src="https://i.ibb.co/ypTv1YY/HILmr.png" alt="" />
+        <Direction className='direction'/>
+        {/* <img src="https://i.ibb.co/ypTv1YY/HILmr.png" alt="" /> */}
       </div>
       <div className="col-md-4 contact">
         <h1>Contact us</h1>

@@ -23,8 +23,8 @@ const New = () => {
 
             <div className='newCard'>
                    {/* card 1 */}
-
-          <Carousel breakPoints={breakPoints}>
+                   
+          <Carousel breakPoints={breakPoints} className="app">
           <Item>
           <Card style={{borderRadius:'2rem'}}    sx={{ maxWidth: 345 }}  >
                       <CardMedia 
@@ -152,7 +152,8 @@ const New = () => {
             
           </Card>
           </Item>
-         </Carousel>
+            </Carousel>
+            
           </div>
             
               
