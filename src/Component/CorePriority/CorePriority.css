@@ -1,5 +1,7 @@
 .core {
   margin-top: 3rem;
+  padding: 3.8rem;
+
 }
 
 .core h1 {
@@ -13,10 +15,15 @@ h3 {
 }
 .card {
   display: flex;
+  flex-direction: row;
   padding: 1rem;
+  border: none;
+  margin-right:2rem
+  
 }
 .card div {
   margin: 10px 10px;
+ 
 }
 /* .cardMedia {
   width: 150px;

@@ -9,7 +9,7 @@ const Benifits = () => {
             <h1 style={{color:'#162044',fontSize:'2.5rem'}}>Finest luxary <br/> restaurent</h1>
            </div> */}
             <div className='luxary2'> 
-            <div className="col-md-4">
+            <div >
         <h1>
         Finest luxary <br />
         restaurent
@@ -32,7 +32,7 @@ const Benifits = () => {
 
         <button>Explore More</button>
       </div>
-            <div className="col-md-8 ">
+            <div >
         <img src="https://i.ibb.co/z562Fkj/finest-luxary2.png" alt="" />
             </div>
         

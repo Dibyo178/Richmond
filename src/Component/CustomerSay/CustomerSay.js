@@ -12,7 +12,7 @@ const CustomerSay = () => {
             <div className='customer'>
             {/* card 1 */}
 
-                <Card className="col-md-3  reviewCard"
+                <Card className="  reviewCard"
                     sx={{ maxWidth: 345 }}
                     style={{ boxShadow: 'rgba(149, 157, 165, 0.2) 0px 8px 24px'}}
                 >
@@ -20,7 +20,7 @@ const CustomerSay = () => {
                   className="images"
      component="img"
    //   height="100"
-     image="https://i.ibb.co/BVvMxHL/Ellipse-1.png"
+     image="https://i.ibb.co/x1M04gk/Ellipse-57.png"
      alt="green iguana"
    />
    <CardContent>
@@ -44,7 +44,7 @@ const CustomerSay = () => {
 {/* card 2 */}
 
 
-                <Card className="col-md-3 reviewCard "
+                <Card className=" reviewCard "
                     sx={{ maxWidth: 345 }}
                     style={{ boxShadow: 'rgba(149, 157, 165, 0.2) 0px 8px 24px'}}
                 >
@@ -53,7 +53,7 @@ const CustomerSay = () => {
                  component="img"
                  width="100"
    //   height="100"
-     image="https://i.ibb.co/6y6xBRg/Ellipse-3.png"
+     image="https://i.ibb.co/HxDQxns/Ellipse-54.png"
  
      alt="green iguana"
    />
@@ -79,7 +79,7 @@ const CustomerSay = () => {
 
 
                 <Card
-                    className="col-md-4 reviewCard "
+                    className=" reviewCard "
                     sx={{ maxWidth: 345 }}
                     style={{ boxShadow: 'rgba(149, 157, 165, 0.2) 0px 8px 24px'}}
                     >
@@ -87,7 +87,7 @@ const CustomerSay = () => {
                   className="images"
   component="img"
    //   height="100"
-     image="https://i.ibb.co/6tv8jsm/Ellipse-2.png"
+     image="https://i.ibb.co/hy3ngLD/Ellipse-56.png"
      alt="green iguana"
    />
    <CardContent>

@@ -1,0 +1,93 @@
+.contactInfo {
+  display: flex;
+}
+.map img {
+  width: 52.5rem;
+  height: 33.125rem;
+}
+.contact {
+  background: #162044;
+  color: #fff;
+  padding: 3rem;
+}
+.contact h1 {
+  font-size: 2.25rem;
+  font-weight: 550;
+  line-height: 52.8px;
+  color: #a18a65;
+}
+.city h5 {
+  font-size: 1.1rem;
+  font-weight: 550;
+  line-height: 26.4px;
+}
+.city h6 {
+  font-size: 1rem;
+  font-weight: 550;
+  line-height: 146.66%;
+  color: #a7a7a7;
+}
+.address h5 {
+  font-size: 1.125rem;
+}
+.address h6 {
+  color: #a7a7a7;
+  font-size: 1rem;
+  font-weight: 550;
+  line-height: 23.76px;
+}
+.phone h5 {
+  font-weight: 550;
+  font-size: 1.125rem;
+  line-height: 146.66%;
+}
+.phone h6 {
+  font-weight: 550;
+  font-size: 1rem;
+  line-height: 132.16%;
+  color: #a7a7a7;
+}
+.email h5 {
+  font-weight: 550;
+  font-size: 1.125rem;
+  line-height: 146.66%;
+}
+.email h6 {
+  font-weight: 550;
+  font-size: 1rem;
+  line-height: 132.16%;
+  text-transform: lowercase;
+  color: #a7a7a7;
+}
+.social h5 {
+  font-weight: 550;
+  font-size: 1.125rem;
+  line-height: 146.66%;
+}
+.links{
+   display:flex;
+   
+}
+.icon{
+  /* width: 2.75rem;
+  height: 2.75rem; */
+  font-size: 2rem;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  color: #fff;
+  /* background-color: rgba(3, 127, 243, 0.5); */
+  size: 1rem;
+  border-radius: 50%;
+  /* font-size: 10px; */
+  text-decoration: none;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+.instagram{
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}

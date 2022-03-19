@@ -5,10 +5,10 @@ const FinestLuxary = () => {
     return (
         <div className="luxuary">
          
-      <div className="col-md-8 resturent">
+      <div className="col-md-7 resturent">
         <img src="https://i.ibb.co/S3JVqCk/finest-luxuary.png" alt="" />
             </div>
-            <div className="col-md-4">
+            <div className="col-md-5">
         <h1>
         Finest luxary <br />
         restaurent

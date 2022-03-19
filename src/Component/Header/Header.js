@@ -1,4 +1,5 @@
 import React from 'react';
+import { IoIosArrowRoundForward } from 'react-icons/io';
 import './Header.css';
 const Header = () => {
     return (
@@ -19,7 +20,7 @@ const Header = () => {
             <div className='content'>
                 <h1>A place for relax & freshness</h1>
                 <div className='btn'>
-                    <button type='button'><span></span>Take a tour <small><ion-icon name="arrow-forward-outline"></ion-icon></small></button> 
+                    <button type='button'><span></span>Take a tour <IoIosArrowRoundForward style={{marginBottom:'0.1rem'}}/> </button>
                     <button type='button'><span></span>Learn More</button>
                 </div>
                 </div>
@@ -28,19 +29,19 @@ const Header = () => {
             
             <div className="searchBx">
             <div className='inputBx'>
-                <p >Check in</p>
+                <p style={{textAlign:'center'}}>Check in</p>
                 <input type="date" />
             </div>
             <div className='inputBx'>
-                <p>Check out</p>
+                <p style={{textAlign:'center'}}>Check out</p>
                 <input type="date" />
             </div>
             <div className='inputBx'>
-                <p>ROOMS</p>
+                <p style={{textAlign:'center'}}>ROOMS</p>
                 <small> <ion-icon name="chevron-down-outline"></ion-icon> Double deluxe</small>
             </div>
             <div className='inputBx'>
-                <p>GUEST</p>
+                <p style={{textAlign:'center'}}>GUEST</p>
                 <small>  <ion-icon name="chevron-down-outline"></ion-icon> 1 person</small>
                 </div>
                 <div className='inputBx'>

@@ -9,11 +9,19 @@
 }
 .newCard {
   display: flex;
+ 
+
   justify-content: space-between;
   padding: 4rem;
-  /* border-radius: 2rem; */
+  border-radius: 2rem;
 }
 .newCardMedia {
   height: 200px;
   border-radius: 2rem;
+  
+}
+.jRFJkP:hover:enabled, .jRFJkP:focus:enabled {
+  color: #fff;
+  background-color: #A18A65;
+  box-shadow: 0 0 2px 0 #333;
 }

@@ -1,15 +1,55 @@
 import React from 'react';
-import { AiOutlineTwitter } from 'react-icons/ai';
-import { BsInstagram } from 'react-icons/bs';
-import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
 import './Footer.css';
 const Footer = () => {
     return (
         <div className="body">
              <footer>
             <div className="container">
-                <div className="wrapper">
-                    <div className="footer-widget">
+                    <div className="wrapper">
+                        <div className="col-md-3">
+                        <img className="footerImg" src="https://i.ibb.co/9n5kgb5/Richmond.png" alt="" />
+                        </div>
+                        <div className="col-md-2 footer-widget">
+                        <h6>About us</h6>
+                            <div>
+                            <ul className='links'> 
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Menu</a></li>
+                        </ul>
+                        </div>
+                        </div>
+                        <div className="col-md-2 footer-widget">
+                        <h6>About us</h6>
+                            <div>
+                            <ul className='links '> 
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Menu</a></li>
+                        </ul>
+                        </div>
+                        </div>
+                        <div className="col-md-2 footer-widget">
+                        <h6>About us</h6>
+                            <div>
+                            <ul className='links'> 
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Menu</a></li>
+                        </ul>
+                        </div>
+                        </div>
+                        <div className="col-md-3">
+                            <input type="email" />
+                        </div>
+
+                    {/* <div className="footer-widget">
                         <a href="#">
                            <img className="footerImg" src="https://i.ibb.co/9n5kgb5/Richmond.png" alt="" />
                         </a>
@@ -18,9 +58,7 @@ const Footer = () => {
                         </h5>
                         <ul className='socials'>
                             <li>
-                                <a href="#">
-                                    <FaFacebookF/>
-                                </a>
+                               
                             </li>
                             <li>
                                 <a href="#">
@@ -33,9 +71,7 @@ const Footer = () => {
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <FaLinkedinIn/>
-                                </a>
+                               
                              </li>
                         </ul>
                     </div>
@@ -66,7 +102,7 @@ const Footer = () => {
                             <li><a href="#">Contact us</a></li>
                            
                         </ul>
-                    </div>
+                    </div> */}
                     
                     </div>
                     <div className="copyright-wrapper">

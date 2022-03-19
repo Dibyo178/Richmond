@@ -3,6 +3,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import React from "react";
+import { IoMdArrowForward } from 'react-icons/io';
 import "./CorePriority.css";
 
 
@@ -12,21 +13,23 @@ const CorePriority = () => {
     <div className="core">
       <h1>OUR CORE PRIORITY</h1>
       <br />
-      <h3>
-        View All <ion-icon name="arrow-forward-outline"></ion-icon>
+      <h3 style={{fontSize:'20px'}}>
+        
+        View All <IoMdArrowForward style={{marginBottom:'0.2rem'}}/>
+        {/* View All <ion-icon name="arrow-forward-outline"></ion-icon> */}
       </h3>
       <br />
 
-      <div className="card ">
+      <div className="card  ">
         {/* card 1 */}
 
        
-          <Card  className="col-md-3  boxShadow" sx={{ maxWidth: 345 }} style={{boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px'}} >
-                      <CardMedia  style={{width: '100px',marginLeft:'5.5rem',borderRadius:'50%'}}
+          <Card  className=" col-md-3 boxShadow" sx={{ maxWidth: 345 }} style={{boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px'}} >
+                      <CardMedia  style={{width: '50px',marginLeft:'7rem',marginTop:'50px'}}
                            className="coreCardMedia"
               component="img"
-              height="100"
-              image="https://i.ibb.co/jGcn3Wj/cozy-room.jpg"
+              height="50"
+              image="https://i.ibb.co/Wg1cLSq/room-service-1.png"
               alt="green iguana"
             />
             <CardContent>
@@ -46,12 +49,12 @@ const CorePriority = () => {
 
         {/* <div> */}
           <Card  className="col-md-3 boxShadow" sx={{ maxWidth: 345 }} style={{boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px'}}>
-                      <CardMedia style={{width: '100px',marginLeft:'5.5rem',borderRadius:'50%'}}
+                      <CardMedia style={{width: '50px',marginLeft:'7rem',marginTop:'50px'}}
                            className="coreCardMedia"
                           component="img"
-                          width="100"
-              height="100"
-              image="https://i.ibb.co/TrYRK6Z/Ac-service.jpg"
+                          // width="100"
+              height="50"
+              image="https://i.ibb.co/sQ10tBp/Vector-3.png"
           
               alt="green iguana"
             />
@@ -72,11 +75,11 @@ const CorePriority = () => {
 
         {/* <div > */}
           <Card className="col-md-3 boxShadow" sx={{ maxWidth: 345 }} style={{boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px'}} >
-                      <CardMedia style={{width: '100px',marginLeft:'5.5rem',borderRadius:'50%'}}
+                      <CardMedia style={{width: '40px',marginLeft:'7rem',marginTop:'50px'}}
                            className="coreCardMedia"
            component="img"
-              height="100"
-              image="https://i.ibb.co/30H9SCP/wifi.png"
+              height="30"
+              image="https://i.ibb.co/CMCGLd4/Group-1.png"
               alt="green iguana"
             />
             <CardContent>
@@ -96,11 +99,11 @@ const CorePriority = () => {
 
         {/* <div> */}
               <Card className="col-md-3 boxShadow" sx={{ maxWidth: 345 }} style={{boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px'}}>
-                      <CardMedia style={{width: '100px',marginLeft:'5.5rem',borderRadius:'50%'}}
+                      <CardMedia style={{width: '50px',marginLeft:'7rem',marginTop:'50px'}}
                           className="coreCardMedia"
           component="img"
-              height="100"
-              image="https://i.ibb.co/df9kWt2/special-gift.jpg"
+              height="50"
+              image="https://i.ibb.co/RzQYT8f/offers-1.png"
               alt="green iguana"
             />
             <CardContent>
@@ -116,6 +119,7 @@ const CorePriority = () => {
             </CardContent>
             
           </Card>
+          
          {/* </div> */}
       </div>
     </div>

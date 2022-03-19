@@ -3,7 +3,7 @@ import "./Agency.css";
 const Agency = () => {
   return (
     <div className=" agency">
-      <div className="col-md-4">
+      <div className="">
         <h1>
           A Hotel Booking <br />
           Agency
@@ -26,7 +26,7 @@ const Agency = () => {
 
         <button>Discover more</button>
       </div>
-      <div className="col-md-8 mosco">
+      <div className=" mosco">
         <img src="https://i.ibb.co/PgF5FKf/mosco.png" alt="" />
       </div>
     </div>

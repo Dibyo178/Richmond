@@ -1,0 +1,20 @@
+.Footer{
+    background:#a18a65;
+     
+}
+
+.footImage img{ 
+  
+     width:7rem;
+     height:4rem;
+}
+
+.copyright-wrapper {
+    padding: 20px 0;
+    border-top: 1px solid rgba(255, 249, 249, 0.4);
+  }
+  .copyright-wrapper p {
+    color: rgb(224, 216, 216);
+    text-align: center;
+    margin-top: 1rem;
+  }

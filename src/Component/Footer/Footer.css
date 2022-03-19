@@ -31,8 +31,8 @@ footer {
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
-}
-.wrapper .footer-widget {
+} 
+ .wrapper .footer-widget {
   width: calc(20% - 30px);
   margin: 0 15px 50px;
   padding: 0 12px;
@@ -96,7 +96,7 @@ footer {
 }
 .wrapper .footer-widget .links li a:hover {
   color: #037ef3;
-}
+} 
 .copyright-wrapper {
   padding: 20px 0;
   border-top: 1px solid rgba(0, 0, 0, 0.4);
