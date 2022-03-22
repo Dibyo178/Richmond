@@ -37,3 +37,191 @@ p {
   color: #fff;
   cursor: pointer;
 }
+
+/* Desktop {min-width:1200px} */
+
+@media only screen and (min-width: 1200px) {
+
+  .luxuary {
+    display: flex;
+    margin-top: 100px;
+    text-align: left;
+    padding: 4rem;
+  }
+  p {
+    /* text-align: left; */
+    /* font-family: TFArrow; */
+    margin-top: 50px;
+    color: gray;
+  }
+  .luxuary h1 {
+    /* font-weight: bold; */
+    font-size: 48px;
+    line-height: 129.4%;
+    /* font-family: TFArrow; */
+    font-style: normal;
+    color: #162044;
+    /* margin-left: -20.375rem; */
+    /* text-align: left; */
+  }
+  .resturent img {
+    /* padding: 1rem; */
+    /* padding-left:-0.1rem; */
+    /* padding-right: -2rem; */
+    /* height: 2rem; */
+     margin-left:-3rem
+    /* width: 25rem;
+    height: 25rem; */
+  }
+  .luxuary button {
+    margin-top: 2rem;
+    width: 180px;
+    padding: 18px 0;
+    font-size: 24px;
+    line-height: 129.4%;
+    background: #a18a65;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+}
+
+
+/* Desktop {min-width:1400} */
+
+@media only screen and (min-width: 1400px) {
+
+  .luxuary {
+    display: flex;
+    margin-top: 100px;
+    text-align: left;
+    padding: 4rem;
+  }
+  p {
+    /* text-align: left; */
+    /* font-family: TFArrow; */
+    margin-top: 50px;
+    color: gray;
+  }
+  .luxuary h1 {
+    /* font-weight: bold; */
+    font-size: 48px;
+    line-height: 129.4%;
+    /* font-family: TFArrow; */
+    font-style: normal;
+    color: #162044;
+    /* margin-left: -20.375rem; */
+    /* text-align: left; */
+  }
+  .resturent img {
+    /* padding-left: 2rem; */
+    /* height: 25rem; */
+     margin-left:1rem
+    /* width: 25rem;
+    height: 25rem; */
+  }
+  .luxuary button {
+    margin-top: 2rem;
+    width: 180px;
+    padding: 18px 0;
+    font-size: 24px;
+    line-height: 129.4%;
+    background: #a18a65;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+}
+
+/* Desktop {min-width:1600} */
+
+@media only screen and (min-width: 1600px) {
+
+  .luxuary {
+    display: flex;
+    margin-top: 100px;
+    text-align: left;
+    padding: 4rem;
+  }
+  p {
+    /* text-align: left; */
+    /* font-family: TFArrow; */
+    margin-top: 50px;
+    color: gray;
+  }
+  .luxuary h1 {
+    /* font-weight: bold; */
+    font-size: 48px;
+    line-height: 129.4%;
+    /* font-family: TFArrow; */
+    font-style: normal;
+    color: #162044;
+    /* margin-left: -20.375rem; */
+    /* text-align: left; */
+  }
+  .resturent img {
+    /* padding: 1rem; */
+    /* padding-left: 3.5rem; */
+    /* height: 25rem; */
+    margin-left:4rem;
+    /* width: 25rem;
+    height: 25rem; */
+  }
+  .luxuary button {
+    margin-top: 2rem;
+    width: 180px;
+    padding: 18px 0;
+    font-size: 24px;
+    line-height: 129.4%;
+    background: #a18a65;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+}
+
+/* Desktop {min-width:1900} */
+
+@media only screen and (min-width: 1900px) {
+
+  .luxuary {
+    display: flex;
+    margin-top: 100px;
+    text-align: left;
+    padding: 4rem;
+  }
+  p {
+    /* text-align: left; */
+    /* font-family: TFArrow; */
+    margin-top: 50px;
+    color: gray;
+  }
+  .luxuary h1 {
+    /* font-weight: bold; */
+    font-size: 48px;
+    line-height: 129.4%;
+    /* font-family: TFArrow; */
+    font-style: normal;
+    color: #162044;
+    /* margin-left: -20.375rem; */
+    /* text-align: left; */
+  }
+  .resturent img {
+    /* padding-left: 10rem;
+    height: 25rem; */
+     margin-left:10rem
+    /* width: 25rem;
+    height: 25rem; */
+  }
+  .luxuary button {
+    margin-top: 2rem;
+    width: 180px;
+    padding: 18px 0;
+    font-size: 24px;
+    line-height: 129.4%;
+    background: #a18a65;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+}

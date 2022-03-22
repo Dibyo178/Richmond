@@ -13,30 +13,225 @@ h3 {
   color: #a08a66;
   margin-left: 62.5rem;
 }
-.card {
+.card1{
   display: flex;
-  flex-direction: row;
-  padding: 1rem;
+ 
+}
+.card2 {
+  margin:  0.8rem;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* padding: 1rem; */
   border: none;
-  margin-right:2rem
-  
+  /* margin-right:2rem */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.cardImage{
+ margin-top: 50px;
+  width:50px;
+  height:50px;
+  margin-left:6.1rem
+}
+.cardTitle{
+  text-align: center;
+  color: #1D1B63;
 }
 .card div {
   margin: 10px 10px;
  
 }
-/* .cardMedia {
-  width: 150px;
-} */
+
 .typography p {
   text-align: center;
   color: #1d1b63;
   font-family: "TFArrow";
   margin-top: 10px;
 }
-/* .boxShadow {
+
+/* Desktop {min-width:1200px} */
+
+@media only screen and (min-width: 1200px) {
+  .core {
+    margin-top: 3rem;
+    padding: 3.8rem;
+  
+  }
+  
+  .core h1 {
+    font-size: 1.5rem;
+    line-height: 129.4%;
+    text-align: center;
+  }
+  .core h3 {
+    color: #a08a66;
+    margin-left: 58.5rem;
+  }
+  .core .view{
+    margin-left: 4.5rem;
+    margin-top: -3rem;
+  }
+  .card1{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* padding: 1rem; */
+    border: none;
+    margin-left:5rem;
+    /* margin-right:2rem */
+    
+  }
  
-} */
-/* .boxShadow {
-  display: flex;
-} */
+
+  .card div {
+    margin: 10px 10px;
+   
+  }
+  
+  .typography p {
+    text-align: center;
+    color: #1d1b63;
+    font-family: "TFArrow";
+    margin-top: 10px;
+  }
+}
+
+/* Desktop {min-width:1400px} */
+
+@media only screen and (min-width: 1400px) {
+  .core {
+    margin-top: 3rem;
+    padding: 3.8rem;
+  
+  }
+  .cardImage{
+   
+     margin-left:7rem
+   }
+  .core h1 {
+    font-size: 1.5rem;
+    line-height: 129.4%;
+    text-align: center;
+  }
+  .core h3 {
+    color: #a08a66;
+    margin-left: 73.5rem;
+  }
+  .core .view{
+    margin-left: 4rem;
+    margin-top: -2.8rem;
+  }
+  .card {
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* padding: 1rem; */
+    border: none;
+    margin-right:2rem
+    
+  }
+
+  /* .card div {
+    margin: 10px 10px;
+   
+  } */
+  
+  .typography p {
+    text-align: center;
+    color: #1d1b63;
+    font-family: "TFArrow";
+    margin-top: 10px;
+  }
+  .card .CardMedia image{
+    margin-left: 15rem;
+  }
+}
+
+ /* Desktop {min-width:1600} */
+@media only screen and (min-width: 1600px) {
+  .core {
+    margin-top: 3rem;
+    padding: 3.8rem;
+  
+  }
+  .cardImage{
+   
+     margin-left:7rem
+   }
+  .core h1 {
+    font-size: 1.5rem;
+    line-height: 129.4%;
+    text-align: center;
+  }
+  .core h3 {
+    color: #a08a66;
+    margin-left: 78.5rem;
+  }
+  .core .view{
+    margin-left: 1rem;
+    margin-top: -0.1rem;
+  }
+  .card1{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* padding: 1rem; */
+    border: none;
+    margin-left:6rem
+    
+  }
+
+ 
+  
+  .typography p {
+    text-align: center;
+    color: #1d1b63;
+    font-family: "TFArrow";
+    margin-top: 10px;
+  }
+  /* .card .CardMedia image{
+    margin-left: 15rem;
+  } */
+}
+
+/* Desktop {min-width:1900} */
+@media only screen and (min-width: 1900px) {
+  .core {
+    margin-top: 3rem;
+    padding: 3.8rem;
+  
+  }
+  .cardImage{
+   
+     margin-left:7rem
+   }
+  .core h1 {
+    font-size: 1.5rem;
+    line-height: 129.4%;
+    text-align: center;
+  }
+  .core h3 {
+    color: #a08a66;
+    margin-left: 88.5rem;
+  }
+  .core .view{
+    margin-left: 1rem;
+    margin-top: -0.1rem;
+  }
+  .card1{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* padding: 1rem; */
+    border: none;
+    margin-left:15rem
+    
+  }
+
+ 
+  
+  .typography p {
+    text-align: center;
+    color: #1d1b63;
+    font-family: "TFArrow";
+    margin-top: 10px;
+  }
+  .card .CardMedia image{
+    margin-left: 15rem;
+  }
+}

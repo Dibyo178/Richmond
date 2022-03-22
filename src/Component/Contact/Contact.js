@@ -8,11 +8,11 @@ import Direction from "./googleMap/Direction.js";
 const Contact = () => {
   return (
     <div className="contactInfo">
-      <div className="col-md-8 map">
+      <div className="col-md-6 map">
         <Direction className='direction'/>
         {/* <img src="https://i.ibb.co/ypTv1YY/HILmr.png" alt="" /> */}
       </div>
-      <div className="col-md-4 contact">
+      <div className="col-md-6 contact">
         <h1>Contact us</h1>
         <div className="city">
           <h5>City</h5>

@@ -4,8 +4,8 @@ import React, { useState } from 'react';
 const containerStyle = {
 //   width: '400px',
 //   height: '400px'
-width: '52.5rem',
-height: '33.125rem'
+width: '60rem',
+  height: '33.125rem'
 };
 
 

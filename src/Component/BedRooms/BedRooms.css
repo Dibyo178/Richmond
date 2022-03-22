@@ -100,3 +100,445 @@ line-height: 96%;
 
   /* padding: 0.5rem; */
 }
+
+/* Desktop {min-width:1200px} */
+
+@media only screen and (min-width: 1200px) {
+  
+  .cardMain {
+    width: 75.5rem;
+     margin-left:-2rem;
+    /* margin-top: 100px; */
+    display: flex;
+    padding: 3rem;
+  }
+  .cardBody {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    transition: 0.4s;
+    width: 300px;
+    background: #fff;
+    text-align: center;
+    /* margin: 10px; */
+    position: relative;
+    margin: 20px;
+    border-radius: 10px;
+    /* float: left;
+    margin: 10px; */
+  }
+  .cardBody img {
+    display: block;
+    border-radius: 4px;
+  }
+  .cardBody .cardIcon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+    /* background: red; */
+    width: 100%;
+    padding-right: 10px;
+  
+    /* left: 0; */
+  }
+  
+  .cardArrow {
+    margin-top: 12rem;
+  
+    margin-left: 2rem;
+  }
+  .room {
+    margin-top: 3.5rem;
+    padding: 3.5rem;
+  }
+  .room h1 {
+    color: #162044;
+    margin-top: 2rem;
+  }
+  .cardBody .cardContainer {
+    margin-top: 10px;
+  }
+  
+  .cardBody .cardContainer h1 {
+    font-size: 24px;
+    margin-right: 3.125rem;
+  }
+  .room1 {
+    display: flex;
+    margin: 10px;
+  }
+  .room1 h6 {
+    color: #a18a65;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 162.99%;
+  }
+  .room2 {
+    display: flex;
+    
+    /* justify-content: space-around; */
+    /* flex-direction: wrap;
+    margin: 0 15px; */
+  }
+  .room2 h2 {
+    font-size: 26px;
+    color: #a67c00;
+    margin-left: 0.7rem;
+  }
+  .room2 h5 {
+    margin-top: 10px;
+    color: #a18a65;
+    margin-left: 0.3rem;
+    font-weight: 550;
+  font-size: 14px;
+  line-height: 96%;
+  }
+  .bookButton {
+    margin-right: 1rem;
+    width: 150px;
+    height: 50px;
+    font-size: 1.2rem;
+    border-radius: 1.5rem;
+    border: none;
+    background: #a18a65;
+    color: #fff;
+    /* margin-top: 30px; */
+  
+    /* padding: 0.5rem; */
+  }
+  
+
+}
+
+
+/* Desktop {min-width:1400px} */
+
+@media only screen and (min-width: 1400px) {
+  
+  .cardMain {
+    width: 75.5rem;
+     margin-left:4rem;
+    /* margin-top: 100px; */
+    display: flex;
+    padding: 3rem;
+  }
+  .cardBody {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    transition: 0.4s;
+    width: 300px;
+    background: #fff;
+    text-align: center;
+    /* margin: 10px; */
+    position: relative;
+    margin: 20px;
+    border-radius: 10px;
+    /* float: left;
+    margin: 10px; */
+  }
+  .cardBody img {
+    display: block;
+    border-radius: 4px;
+  }
+  .cardBody .cardIcon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+    /* background: red; */
+    width: 100%;
+    padding-right: 10px;
+  
+    /* left: 0; */
+  }
+  
+  .cardArrow {
+    margin-top: 12rem;
+  
+    margin-left: 2rem;
+  }
+  .room {
+    margin-top: 3.5rem;
+    padding: 3.5rem;
+  }
+  .room h1 {
+    color: #162044;
+    margin-top: 2rem;
+  }
+  .cardBody .cardContainer {
+    margin-top: 10px;
+  }
+  
+  .cardBody .cardContainer h1 {
+    font-size: 24px;
+    margin-right: 3.125rem;
+  }
+  .room1 {
+    display: flex;
+    margin: 10px;
+  }
+  .room1 h6 {
+    color: #a18a65;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 162.99%;
+  }
+  .room2 {
+    display: flex;
+    
+    /* justify-content: space-around; */
+    /* flex-direction: wrap;
+    margin: 0 15px; */
+  }
+  .room2 h2 {
+    font-size: 26px;
+    color: #a67c00;
+    margin-left: 0.7rem;
+  }
+  .room2 h5 {
+    margin-top: 10px;
+    color: #a18a65;
+    margin-left: 0.3rem;
+    font-weight: 550;
+  font-size: 14px;
+  line-height: 96%;
+  }
+  .bookButton {
+    margin-right: 1rem;
+    width: 150px;
+    height: 50px;
+    font-size: 1.2rem;
+    border-radius: 1.5rem;
+    border: none;
+    background: #a18a65;
+    color: #fff;
+    /* margin-top: 30px; */
+  
+    /* padding: 0.5rem; */
+  }
+  
+
+}
+
+/* Desktop {min-width:1600px} */
+
+@media only screen and (min-width: 1600px) {
+  
+  .cardMain {
+    width: 75.5rem;
+     margin-left:8rem;
+    /* margin-top: 100px; */
+    display: flex;
+    padding: 3rem;
+  }
+  .cardBody {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    transition: 0.4s;
+    width: 300px;
+    background: #fff;
+    text-align: center;
+    /* margin: 10px; */
+    position: relative;
+    margin: 20px;
+    border-radius: 10px;
+    /* float: left;
+    margin: 10px; */
+  }
+  .cardBody img {
+    display: block;
+    border-radius: 4px;
+  }
+  .cardBody .cardIcon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+    /* background: red; */
+    width: 100%;
+    padding-right: 10px;
+  
+    /* left: 0; */
+  }
+  
+  .cardArrow {
+    margin-top: 12rem;
+  
+    margin-left: 2rem;
+  }
+  .room {
+    margin-top: 3.5rem;
+    padding: 3.5rem;
+  }
+  .room h1 {
+    color: #162044;
+    margin-top: 2rem;
+  }
+  .cardBody .cardContainer {
+    margin-top: 10px;
+  }
+  
+  .cardBody .cardContainer h1 {
+    font-size: 24px;
+    margin-right: 3.125rem;
+  }
+  .room1 {
+    display: flex;
+    margin: 10px;
+  }
+  .room1 h6 {
+    color: #a18a65;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 162.99%;
+  }
+  .room2 {
+    display: flex;
+    
+    /* justify-content: space-around; */
+    /* flex-direction: wrap;
+    margin: 0 15px; */
+  }
+  .room2 h2 {
+    font-size: 26px;
+    color: #a67c00;
+    margin-left: 0.7rem;
+  }
+  .room2 h5 {
+    margin-top: 10px;
+    color: #a18a65;
+    margin-left: 0.3rem;
+    font-weight: 550;
+  font-size: 14px;
+  line-height: 96%;
+  }
+  .bookButton {
+    margin-right: 1rem;
+    width: 150px;
+    height: 50px;
+    font-size: 1.2rem;
+    border-radius: 1.5rem;
+    border: none;
+    background: #a18a65;
+    color: #fff;
+    /* margin-top: 30px; */
+  
+    /* padding: 0.5rem; */
+  }
+  
+
+}
+
+/* Desktop {min-width:1600px} */
+
+@media only screen and (min-width: 1600px) {
+  
+  .cardMain {
+    width: 75.5rem;
+     margin-left:17rem;
+    /* margin-top: 100px; */
+    display: flex;
+    padding: 3rem;
+  }
+  .cardBody {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    transition: 0.4s;
+    width: 300px;
+    background: #fff;
+    text-align: center;
+    /* margin: 10px; */
+    position: relative;
+    margin: 20px;
+    border-radius: 10px;
+    /* float: left;
+    margin: 10px; */
+  }
+  .cardBody img {
+    display: block;
+    border-radius: 4px;
+  }
+  .cardBody .cardIcon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+    /* background: red; */
+    width: 100%;
+    padding-right: 10px;
+  
+    /* left: 0; */
+  }
+  
+  .cardArrow {
+    margin-top: 12rem;
+  
+    margin-left: 2rem;
+  }
+  .room {
+    margin-top: 3.5rem;
+    padding: 3.5rem;
+  }
+  .room h1 {
+    color: #162044;
+    margin-top: 2rem;
+    margin-left: 3rem;
+  }
+  .cardBody .cardContainer {
+    margin-top: 10px;
+  }
+  
+  .cardBody .cardContainer h1 {
+    font-size: 24px;
+    margin-right: 3.125rem;
+  }
+  .room1 {
+    display: flex;
+    margin: 10px;
+  }
+  .room1 h6 {
+    color: #a18a65;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 162.99%;
+  }
+  .room2 {
+    display: flex;
+    
+    /* justify-content: space-around; */
+    /* flex-direction: wrap;
+    margin: 0 15px; */
+  }
+  .room2 h2 {
+    font-size: 26px;
+    color: #a67c00;
+    margin-left: 0.7rem;
+  }
+  .room2 h5 {
+    margin-top: 10px;
+    color: #a18a65;
+    margin-left: 0.3rem;
+    font-weight: 550;
+  font-size: 14px;
+  line-height: 96%;
+  }
+  .bookButton {
+    margin-right: 1rem;
+    width: 150px;
+    height: 50px;
+    font-size: 1.2rem;
+    border-radius: 1.5rem;
+    border: none;
+    background: #a18a65;
+    color: #fff;
+    /* margin-top: 30px; */
+  
+    /* padding: 0.5rem; */
+  }
+  
+
+}

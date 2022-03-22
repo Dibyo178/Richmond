@@ -7,3 +7,20 @@
   background-size: cover;
   background-position: center;
 }
+
+.container{
+  padding:20px
+}
+
+.container .media{
+  margin-left:32rem;
+}
+
+/* Desktop {min-width:1200px} */
+
+@media only screen and (min-width: 1400px) {
+
+  .tour .media{
+   margin-left: 38rem;
+  }
+}

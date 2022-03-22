@@ -4,12 +4,14 @@ import './Tour.css';
 const Tour = () => {
     return (
         <div className='tour'>
-             <br/>
-            <p style={{ color: 'white', textAlign: 'center' }}>Watch our luxarious hotel</p>
-            <br/>
-            <h1 style={{ color: 'white', textAlign: 'center' }}>Take A Tour</h1> <br />
+     
+            <div className='container'>
+            <p className='tour2' style={{ color: 'white', textAlign: 'center' }}>Watch our luxarious hotel</p>
+            
+            <h1 className='tour3' style={{ color: 'white', textAlign: 'center' }}>Take A Tour</h1> 
             {/* <br/><br/> */}
-            <SiYoutubemusic className='media' style={{marginLeft:'36rem',color:'yellow',width:'70px',height:'70px',cursor:'pointer'}}/>
+            <SiYoutubemusic className='media' style={{color:'yellow',width:'70px',height:'70px',cursor:'pointer'}}/>
+            </div>
          
         </div>
     );

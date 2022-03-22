@@ -1,8 +1,83 @@
-* {
-  margin: 0;
-  padding: 0;
-  /* font-family: TFArrow; */
+/* @media (min-width:320px)  
+@media (min-width:481px) 
+@media (min-width:641px)  
+@media (min-width:961px)  
+@media (min-width:1025px) 
+@media (min-width:1281px) */
+
+
+.nav-toggle{
+  width:44px;
+  height:32px;
+  background:#fff;
+  border: none;
+  display: none;
 }
+.nav-toggle:focus{
+  box-shadow: 0 0 15px rgba(255,255,255,.6);
+}
+
+.nav-toggle span{
+    width:20px;
+    height: 2px;
+    background:#2f3240;
+    display:block;
+    margin: auto;
+    position: relative;
+  /* display:none; */
+}
+
+.nav-toggle span::after,
+.nav-toggle span::before{
+  position: absolute;
+  background:#2f3240;
+  width:100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  content:'';
+  
+}
+
+.nav-toggle span::after{
+  transform: translateY(-6px);
+}
+
+.nav-toggle span::before{
+  transform: translateY(6px);
+}
+
+
+
+@media (max-width:992px){
+  .nav-toggle {
+    display:block;
+  }
+  .nav{
+    max-width: 100%;
+    max-height:0;
+    padding: 0;
+    overflow: hidden;
+    visibility: hidden;
+  }
+  .nav.open{
+    visibility: visible;
+  }
+  .nav ul{
+    padding:12px 15px;
+    margin-top: 12px;
+    border-top: 1px solid rgba(255,255,255,0.6);
+
+  }
+  .nav ul li{
+    margin: 0;
+    
+  }
+}
+
+/* Desktop  min-width: 1200px*/
+
+
 .banner {
   width: 100%;
   height: 85vh;
@@ -60,7 +135,7 @@
   margin-top: 80px;
 }
 .btn {
-  margin-top: 60px;
+  margin-top: 1.6rem;
 }
 .btn button {
   font-size: 1.2rem;
@@ -86,7 +161,7 @@
   left: 0;
   bottom: 0;
   z-index: -1;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .btn .button:hover span {
@@ -112,12 +187,14 @@
 }
 .searchBx {
   bottom: 0;
-  margin-left: 10rem;
+  margin-left: 8rem;
   /* position: relative; */
   position: absolute;
   display: flex;
-  margin-bottom: 1rem;
+
+  margin-bottom: -1rem;
   align-items: center;
+  justify-content: center;
   background: #191b30;
   padding: 1.8rem 3.1rem;
 }
@@ -143,3 +220,603 @@ small {
   color: white;
   cursor: pointer;
 }
+
+/* mobile responsive */
+
+
+
+
+@media only screen and (min-width: 1200px) {
+  .banner {
+    width: 100%;
+    height: 85vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+      url(../../../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    width: 120px;
+    cursor: pointer;
+  }
+  
+  .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+  }
+  .navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .navbar ul li::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+  }
+  .navbar ul li:hover::after {
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-40%);
+    text-align: center;
+    color: #fff;
+  }
+  .content h1 {
+    font-size: 50px;
+    margin-top: 80px;
+  }
+  .btn {
+    margin-top: 1.6rem;
+  }
+  .btn button {
+    font-size: 1.2rem;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: 500;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  .tourBtn {
+    background: #a08a66;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+  }
+  
+  .btn .button:hover span {
+    width: 100%;
+  }
+  .btn .button:hover {
+    border: none;
+    font-weight: 600;
+  }
+  .nav-btn {
+    width: 6.25rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    border-radius: 25px;
+    border: none;
+    color: #a08a66;
+    cursor: pointer;
+  }
+  .nav-btn:hover {
+    background-color: #009688;
+    color: white;
+    transition: 0.5s;
+  }
+  .searchBx {
+    bottom: 0;
+    margin-left: 8rem;
+    /* position: relative; */
+    position: absolute;
+    display: flex;
+  
+    margin-bottom: -2.8rem;
+    align-items: center;
+    justify-content: center;
+    background: #191b30;
+    padding: 2.5rem 4.5rem;
+  }
+  .inputBx button {
+    padding: 1rem 0;
+    font-size: 20px;
+    width: 200px;
+    background: #a18a65;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .searchBx .inputBx {
+    margin: 0 1.25rem;
+  }
+  .searchBx .inputBx p {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  small {
+    color: white;
+    cursor: pointer;
+  }
+  
+  
+}
+
+
+/* Desktop  min-width: 1400px*/
+
+@media only screen and (min-width: 1400px) {
+  .banner {
+    width: 100%;
+    height: 85vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+      url(../../../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    width: 120px;
+    cursor: pointer;
+  }
+
+  .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+  }
+  .navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .navbar ul li::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+  }
+  .navbar ul li:hover::after {
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-40%);
+    text-align: center;
+    color: #fff;
+  }
+  .content h1 {
+    font-size: 50px;
+    margin-top: 80px;
+  }
+  .btn {
+    margin-top: 1.6rem;
+  }
+  .btn button {
+    font-size: 1.2rem;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: 500;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  .tourBtn {
+    background: #a08a66;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+  }
+
+  .btn .button:hover span {
+    width: 100%;
+  }
+  .btn .button:hover {
+    border: none;
+    font-weight: 600;
+  }
+  .nav-btn {
+    width: 6.25rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    border-radius: 25px;
+    border: none;
+    color: #a08a66;
+    cursor: pointer;
+  }
+  .nav-btn:hover {
+    background-color: #009688;
+    color: white;
+    transition: 0.5s;
+  }
+  .searchBx {
+    bottom: 0;
+    margin-left: 12rem;
+    /* position: relative; */
+    position: absolute;
+    display: flex;
+
+    margin-bottom: -1rem;
+    align-items: center;
+    justify-content: center;
+    background: #191b30;
+    padding: 3rem 5rem;
+  }
+  .inputBx button {
+    padding: 1rem 0;
+    font-size: 20px;
+    width: 200px;
+    background: #a18a65;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .searchBx .inputBx {
+    margin: 0 1.25rem;
+  }
+  .searchBx .inputBx p {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  small {
+    color: white;
+    cursor: pointer;
+  }
+}
+
+/* Desktop  min-width: 1600px*/
+
+@media only screen and (min-width: 1600px) {
+  .banner {
+    width: 100%;
+    height: 85vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+      url(../../../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    width: 120px;
+    cursor: pointer;
+  }
+
+  .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+  }
+  .navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .navbar ul li::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+  }
+  .navbar ul li:hover::after {
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-40%);
+    text-align: center;
+    color: #fff;
+  }
+  .content h1 {
+    font-size: 50px;
+    margin-top: 80px;
+  }
+  .btn {
+    margin-top: 1.6rem;
+  }
+  .btn button {
+    font-size: 1.2rem;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: 500;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  .tourBtn {
+    background: #a08a66;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+  }
+
+  .btn .button:hover span {
+    width: 100%;
+  }
+  .btn .button:hover {
+    border: none;
+    font-weight: 600;
+  }
+  .nav-btn {
+    width: 6.25rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    border-radius: 25px;
+    border: none;
+    color: #a08a66;
+    cursor: pointer;
+  }
+  .nav-btn:hover {
+    background-color: #009688;
+    color: white;
+    transition: 0.5s;
+  }
+  .searchBx {
+    bottom: 0;
+    margin-left: 19rem;
+    /* position: relative; */
+    position: absolute;
+    display: flex;
+
+    margin-bottom: -0.1rem;
+    align-items: center;
+    justify-content: center;
+    background: #191b30;
+    padding: 4rem 6rem;
+  }
+  .inputBx button {
+    padding: 1rem 0;
+    font-size: 20px;
+    width: 200px;
+    background: #a18a65;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .searchBx .inputBx {
+    margin: 0 1.25rem;
+  }
+  .searchBx .inputBx p {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  small {
+    color: white;
+    cursor: pointer;
+  }
+}
+
+
+      /* Desktop  min-width: 1900px*/
+
+      @media only screen and (min-width: 1900px)  {
+
+        .banner {
+          width: 100%;
+          height: 85vh;
+          background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+            url(../../../images/background.jpg);
+          background-size: cover;
+          background-position: center;
+        }
+        .navbar {
+          width: 85%;
+          margin: auto;
+          padding: 35px 0;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+        .logo {
+          width: 120px;
+          cursor: pointer;
+        }
+        
+        .navbar ul li {
+          list-style: none;
+          display: inline-block;
+          margin: 0 20px;
+          position: relative;
+        }
+        .navbar ul li a {
+          text-decoration: none;
+          color: #fff;
+        }
+        .navbar ul li::after {
+          content: "";
+          height: 3px;
+          width: 0;
+          background: #009688;
+          position: absolute;
+          left: 0;
+          bottom: -10px;
+          transition: 0.5s;
+        }
+        .navbar ul li:hover::after {
+          width: 100%;
+        }
+        .content {
+          width: 100%;
+          position: absolute;
+          top: 40%;
+          transform: translateY(-40%);
+          text-align: center;
+          color: #fff;
+        }
+        .content h1 {
+          font-size: 50px;
+          margin-top: 80px;
+        }
+        .btn {
+          margin-top: 1.6rem;
+        }
+        .btn button {
+          font-size: 1.2rem;
+          width: 200px;
+          padding: 15px 0;
+          text-align: center;
+          margin: 20px 10px;
+          border-radius: 25px;
+          font-weight: 500;
+          border: 2px solid #009688;
+          background: transparent;
+          color: #fff;
+          cursor: pointer;
+          position: relative;
+          overflow: hidden;
+        }
+        .tourBtn {
+          background: #a08a66;
+          height: 100%;
+          width: 0;
+          border-radius: 25px;
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          z-index: -1;
+          transition: .5s;
+        }
+        
+        .btn .button:hover span {
+          width: 100%;
+        }
+        .btn .button:hover {
+          border: none;
+          font-weight: 600;
+        }
+        .nav-btn {
+          width: 6.25rem;
+          height: 2.5rem;
+          font-size: 1rem;
+          border-radius: 25px;
+          border: none;
+          color: #a08a66;
+          cursor: pointer;
+        }
+        .nav-btn:hover {
+          background-color: #009688;
+          color: white;
+          transition: 0.5s;
+        }
+        .searchBx {
+          bottom: 0;
+          margin-left: 28rem;
+          /* position: relative; */
+          position: absolute;
+          display: flex;
+         
+          margin-bottom: 3rem;
+          align-items: center;
+          justify-content:center;
+          background: #191b30;
+          padding: 1.8rem 3.1rem;
+        }
+        .inputBx button {
+          padding: 1rem 0;
+          font-size: 20px;
+          width: 200px;
+          background: #a18a65;
+          color: #ffffff;
+          border: none;
+          cursor: pointer;
+        }
+        
+        .searchBx .inputBx {
+          margin: 0 1.25rem;
+        }
+        .searchBx .inputBx p {
+          margin-top: 1.5rem;
+          margin-bottom: 1rem;
+          color: white;
+        }
+        small {
+          color: white;
+          cursor: pointer;
+        }
+         
+        }
+
+     
+     

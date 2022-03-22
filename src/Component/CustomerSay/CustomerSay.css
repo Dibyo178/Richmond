@@ -20,3 +20,30 @@
 .reviewCard:hover .text {
   color: #ffffff;
 }
+
+
+/* Desktop {min-width:1400px */
+
+  @media only screen and (min-width: 1400px) {
+    .reviewCard{
+      margin-left:3rem;
+      padding:2rem;
+    }
+  }
+  /* Desktop {min-width:1600px */
+
+    @media only screen and (min-width: 1600px) {
+      .reviewCard{
+        margin-left:6rem;
+        padding:3rem;
+      }
+    }
+
+    /* Desktop {min-width:1900px */
+
+      @media only screen and (min-width: 1900px) {
+        .reviewCard{
+          margin-left:11rem;
+          padding:3rem;
+        }
+      }

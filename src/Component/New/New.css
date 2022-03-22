@@ -26,14 +26,109 @@
   background-color: #A18A65;
   box-shadow: 0 0 2px 0 #333;
 }
-/* button:not(:disabled) {
-  color: #fff;
-  background-color: #A18A65;
-  cursor: pointer;
-}
 
-.jRFJkP:hover:enabled {
-  color: #fff;
-  background: #A18A65;
-  box-shadow: 0 0 2px 0 #333;
-} */
+/* Desktop {min-width:1400px */
+
+  @media only screen and (min-width: 1400px) {
+    .new {
+      margin-top: 5rem;
+      padding: 1.5rem;
+    }
+    .new h1 {
+      margin-left: 7rem;
+      color: #162044;
+      font-weight: 550;
+    }
+    .newCard {
+      display: flex;
+      
+      margin-top:-1rem;
+    
+      justify-content: space-between;
+      padding: 5rem;
+      border-radius: 2rem;
+    }
+    .newCardMedia {
+     
+      height: 200px;
+      border-radius: 2rem;
+      
+    }
+    
+    .app button:hover:enabled {
+      color: #fff;
+      background-color: #A18A65;
+      box-shadow: 0 0 2px 0 #333;
+    }
+  }
+
+
+      /* Desktop {min-width:1600px */
+
+        @media only screen and (min-width: 1600px) {
+          .new {
+            margin-top: 5rem;
+            padding: 1.5rem;
+          }
+          .new h1 {
+            margin-left: 7rem;
+            color: #162044;
+            font-weight: 550;
+          }
+          .newCard {
+            display: flex;
+            
+            margin-top:-4rem;
+          
+            justify-content: space-between;
+            padding: 10rem;
+            border-radius: 2rem;
+          }
+          .newCardMedia {
+           
+            height: 200px;
+            border-radius: 2rem;
+            
+          }
+          
+          .app button:hover:enabled {
+            color: #fff;
+            background-color: #A18A65;
+            box-shadow: 0 0 2px 0 #333;
+          }
+        }
+
+        /* Desktop {min-width:1900px */
+
+          @media only screen and (min-width: 1900px) {
+            .new {
+              margin-top: 5rem;
+              padding: 1.5rem;
+            }
+            .new h1 {
+              margin-left: 12rem;
+              color: #162044;
+              font-weight: 550;
+            }
+            .newCard {
+              display: flex;
+              
+              margin-top:-11rem;
+            
+              justify-content: space-between;
+              padding: 18rem;
+              border-radius: 2rem;
+            }
+            .newCardMedia {
+             
+              height: 200px;
+              border-radius: 2rem;
+              
+            }
+            
+            .app button:hover:enabled {
+              color: #fff;
+              background-color: #A18A65;
+              box-shadow: 0 0 2px 0 #333;
+            }
+          }
